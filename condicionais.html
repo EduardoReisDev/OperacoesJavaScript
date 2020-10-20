@@ -1,0 +1,46 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <script>
+
+            // if / else / else if
+
+            function retornaSexo(sexo){
+                if (sexo == 'M'){
+                    return 'Masculino';
+                }
+
+                else if (sexo == 'F'){
+                    return 'Feminino';
+                }
+
+                else {
+                    return 'Outro';
+                }
+            }
+
+            var resultado = retornaSexo('M');
+            console.log(resultado);
+
+            // switch case
+
+            function retornaSexo2 (sexo2){
+                switch (sexo2){
+                    case 'MA':
+                        return 'Masculino';
+                    case "FE":
+                        return 'Feminino';
+                    default:
+                        return 'Outro';
+                }
+            }
+
+            var resultado2 = retornaSexo2('FE');
+            console.log(resultado2);
+        
+        </script>
+    </body>
+</html>

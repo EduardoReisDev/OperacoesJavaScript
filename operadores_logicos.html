@@ -1,0 +1,35 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <script>
+            // AND, OR, NOT
+            var sexo = 'M', idade = 23;
+            var masculino = sexo === 'M';
+            console.log(masculino);
+
+            if (sexo == 'M' && idade >= 18){
+                console.log('OK');
+            }
+
+            if (sexo == 'M' || idade == 10){
+                console.log('OK');
+                // não vai entrar
+            }
+
+            if (sexo != 'F'){
+                console.log('OK');
+            }
+
+            if (sexo == 'M'){
+                masculino = true;
+            } else {
+                masculino = false;
+            }
+
+            console.log(masculino);
+        </script>
+    </body>
+</html>
